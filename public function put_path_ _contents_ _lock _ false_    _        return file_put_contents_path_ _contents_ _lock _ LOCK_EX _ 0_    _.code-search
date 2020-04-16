@@ -1,0 +1,9 @@
+# Query: public function put($path, $contents, $lock = false)\n    {\n        return file_put_contents($path, $contents, $lock ? LOCK_EX : 0);\n    }
+
+1 result - 1 file
+
+vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:
+public function put($path, $contents, $lock = false)
+    {
+        return file_put_contents($path, $contents, $lock ? LOCK_EX : 0);
+    }
